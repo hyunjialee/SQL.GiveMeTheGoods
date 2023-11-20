@@ -1,1 +1,1 @@
-SELECT * FROM Students WHERE City LIKE '[a-f]%';
+SELECT * FROM Students WHERE City LIKE '^[a-f]';
